@@ -1,0 +1,8 @@
+model_config_list {
+ config {
+    name: 'result_model'
+    base_path: '/models/result_model/'
+    model_platform: 'tensorflow'
+    model_version_policy: {all: {}}
+        }
+}
