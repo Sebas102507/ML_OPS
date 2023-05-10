@@ -7,9 +7,9 @@ services:
 
     volumes:
       - ./result_model:/models/result_model
-      - ./result_model/model.config.a:/models/result_model/model.config.a
+      - ./result_model/models.config.a:/models/result_model/models.config.a
     environment:
       - MODEL_NAME=result_model
 
     command:
-      - '--model_config_file=/models/result_model/model.config.a'  
+      - '--model_config_file=/models/result_model/models.config.a'  
